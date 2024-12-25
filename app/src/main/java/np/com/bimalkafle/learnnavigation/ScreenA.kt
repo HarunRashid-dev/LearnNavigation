@@ -19,7 +19,7 @@ fun ScreenA(navController: NavController){
     ) {
         Text(text = "Screen A")
         Button(onClick = {
-            navController.navigate("screen_B")
+            navController.navigate(Routes.screenB+"/Harun")
         }) {
             Text(text = "Goto Screen B")
         }
